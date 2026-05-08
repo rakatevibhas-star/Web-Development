@@ -1,0 +1,53 @@
+<html>
+  <style>
+    table {
+        border-collapse: collapse;
+        width: 50%;
+        background-color: lightblue; /* Table background color */
+    }
+
+    th {
+        background-color: darkblue;
+        color: white;
+        padding: 8px;
+    }
+
+    td {
+        background-color: lightyellow;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: lightgreen; /* Alternate row color */
+    }
+</style>
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Student Directory</title>
+  </head>
+  <body>
+    <h2>Student Directory</h2>
+    <table border="1">
+      <tr bgcolor="#cccccc">
+        <th>Name</th>
+        <th>Roll No</th>
+        <th>Course</th>
+      </tr>
+      <tr>
+        <td>Kartik Aryan</td>
+        <td>101</td>
+        <td>Computer Science</td>
+      </tr>
+      <tr>
+        <td>Priyanka Rajput</td>
+        <td>102</td>
+        <td>Information Technology</td>
+      </tr>
+      <tr>
+        <td>Hari Singh</td>
+        <td>103</td>
+        <td>Electronics</td>
+      </tr>
+    </table>
+  </body>
+</html>
